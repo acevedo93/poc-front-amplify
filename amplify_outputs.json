@@ -104,5 +104,14 @@
       "nonModels": {}
     }
   },
-  "version": "1"
+  "version": "1",
+  "custom": {
+    "API": {
+      "MyRestApiExample": {
+        "endpoint": "https://hagmvhk7ee.execute-api.us-east-1.amazonaws.com/dev/",
+        "region": "us-east-1",
+        "apiName": "MyRestApiExample"
+      }
+    }
+  }
 }
