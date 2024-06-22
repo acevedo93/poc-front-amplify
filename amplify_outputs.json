@@ -1,9 +1,9 @@
 {
   "auth": {
-    "user_pool_id": "us-east-1_FSEHZpmfQ",
+    "user_pool_id": "us-east-1_4La197sFM",
     "aws_region": "us-east-1",
-    "user_pool_client_id": "vl2ld5plfv9c2pm1b09gg1dr1",
-    "identity_pool_id": "us-east-1:338660c3-f7b6-47ca-85ff-8ad44cda7ef9",
+    "user_pool_client_id": "3ibg3pc9fg7hvc6nje2me36ocg",
+    "identity_pool_id": "us-east-1:bf6361f8-0fbc-4252-9193-edbdbe5c9e31",
     "mfa_methods": [],
     "standard_required_attributes": [
       "email"
@@ -25,7 +25,7 @@
     "unauthenticated_identities_enabled": true
   },
   "data": {
-    "url": "https://oi3icfren5d4rcoybtnwvt4hl4.appsync-api.us-east-1.amazonaws.com/graphql",
+    "url": "https://oe3t4vvnh5b5pfk3xqkcpgo754.appsync-api.us-east-1.amazonaws.com/graphql",
     "aws_region": "us-east-1",
     "default_authorization_type": "AWS_IAM",
     "authorization_types": [
@@ -107,10 +107,10 @@
   "version": "1",
   "custom": {
     "API": {
-      "MyRestApiExample": {
-        "endpoint": "https://hagmvhk7ee.execute-api.us-east-1.amazonaws.com/dev/",
+      "RAIO API": {
+        "endpoint": "https://ls02v0flv5.execute-api.us-east-1.amazonaws.com/dev/",
         "region": "us-east-1",
-        "apiName": "MyRestApiExample"
+        "apiName": "RAIO API"
       }
     }
   }
