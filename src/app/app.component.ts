@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 
 import { Amplify } from "aws-amplify"
 import outputs from "../../amplify_outputs.json"
-import { ApiError, get } from 'aws-amplify/api'
+import { ApiError, get, post } from 'aws-amplify/api'
 
 
 Amplify.configure(outputs)
@@ -37,9 +37,9 @@ export class AppComponent {
   async getItem(): Promise<void> {
 
     try {
-      const restOperation = get({
-        apiName: "MyRestApiExample",
-        path: 'items',
+      const restOperation = post({
+        apiName: outputs.custom.API['RAIO API'].apiName,
+        path: 'users',
       })
 
       const response = await restOperation.response
