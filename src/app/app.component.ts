@@ -38,8 +38,8 @@ export class AppComponent {
 
     try {
       const restOperation = get({
-        apiName: "MyRestApiExample",
-        path: 'items',
+        apiName: outputs.custom.API['RAIO API'].apiName,
+        path: 'users',
       })
 
       const response = await restOperation.response
